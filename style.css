@@ -1,0 +1,262 @@
+/* font-family: 'Chela One','Caprasimo','Lilita One', cursive; */
+@import url('https://fonts.googleapis.com/css2?family=Caprasimo&family=Chela+One&family=Lilita+One&display=swap');
+
+body {
+    /* background-color: rgb(255, 255, 0, 0.7); */
+    
+    background-color: beige;
+    margin: 0;
+    padding: 0;
+}
+
+table,
+th,
+tr,
+td {
+    border: 2px solid white;
+    border-collapse: collapse;
+    background-color: black;
+    color: white;
+    text-align: center;
+    height: 2px;
+    font-size: 20px;
+    padding: 10px;
+    margin-left: 10px;
+}
+img{
+    mix-blend-mode: multiply;
+}
+
+h1 {
+    font-family: 'Chela One', 'cursive';
+    font-size: 55px;
+    /* background-color: #ffcc00;
+    background-color: rgb(147, 101, 11); */
+    background-color: rgb(226, 122, 59);
+    color: #fff;
+    padding: 10px;
+    border-radius: 67px;
+    height: 80px;
+    width: 350px;
+    margin-top: 20px;
+    line-height: 1.5; 
+
+}
+
+.title {
+    font-family: 'Lilita One', 'cursive';
+    font-size: 30px;
+    margin-left: 50px;
+    line-height: 0.5;
+}
+
+.burger {
+    position: relative;
+}
+
+.burger img {
+    position: absolute;
+    top: 145px;
+    left: 869px;
+    height: 231px;
+    width: 231px;
+}
+
+.arrow {
+    position: relative;
+}
+
+.arrow .ar {
+    position: absolute;
+    top: 216px;
+    left: 638px;
+    height: 115px;
+    width: 188px;
+    /* mix-blend-mode:multiply; */
+}
+
+.quote .qt {
+    float: right;
+    height: 710px;
+    width: 330px;
+    margin-top: -20px;
+
+
+}
+
+
+.bill {
+    position: relative;
+}
+
+button {
+    position: absolute;
+    width: 100px;
+    height: 50px;
+    font-size: 15px;
+    margin-top: 10px;
+    border-radius: 10px;
+    left: 80px;
+    background-color: orange;
+}
+
+.text {
+    background: linear-gradient(to right,grey,black,grey);
+    color: white;
+    position: absolute;
+    left: 1260px;
+    top: 1470px;
+    height: 70px;
+    width: 234px;
+    box-shadow: inset 0 0 0 3px #ccc;
+    border-radius: 15px;
+    line-height: 4;
+    text-align: center;
+    font-size: 18px;
+    display: none;
+    
+} 
+
+
+#order {
+    margin-left: 15px;
+    margin-bottom:10px;
+}
+
+#cancel {
+    position: absolute;
+    width: 100px;
+    height: 50px;
+    font-size: 15px;
+    margin-top: 10px;
+    border-radius: 10px;
+    left: 250px;
+    background-color: orange;
+    margin-bottom:10px;
+}
+
+
+#order:hover {
+    background-color: rgb(144, 238, 153);
+
+}
+
+#cancel:hover {
+    background-color: orangered;
+
+}
+
+.list1 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+}
+
+.list2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+
+}
+
+.item {
+    height: 300px;
+    width: 280px;
+    border: 2px solid black;
+    margin: 15px 17px;
+}
+
+.item img {
+
+    width: 280px;
+    height: 200px;
+    margin: 0;
+
+}
+
+h4 {
+    font-family: 'cursive', 'Lilita One';
+    display: flex;
+    justify-content: center;
+font-size: 19px;
+}
+.item button {
+    position: absolute;
+    width: 79px;
+    height: 38px;
+    font-size: 15px;
+    border-radius: 10px;
+    background-color: orange;
+    
+}
+
+#btn {
+
+    left: 215px;
+    top: 1050px;
+}
+
+#btn1 {
+
+    left: 535px;
+    top: 1050px;
+}
+
+#btn2 {
+
+    left: 855px;
+    top: 1050px;
+}
+
+#btn3 {
+
+    left: 1175px;
+    top: 1050px;
+}
+
+#btn4 {
+
+    left: 1500px;
+    top: 1050px;
+}
+#btn5 {
+
+    left: 215px;
+    top: 1385px;
+}
+
+#btn6{
+
+    left: 535px;
+    top: 1385px;
+}
+
+#btn7 {
+
+    left: 855px;
+    top: 1385px;
+}
+
+#btn8{
+
+    left: 1175px;
+    top: 1385px;
+}
+
+#btn9{
+
+    left: 1500px;
+    top: 1385px;
+}
+
+.add{
+    width: 60px;
+height: 20px;
+border-radius: 10px;
+background-color: orange;
+border: 1px solid orange;
+}
+
+  
